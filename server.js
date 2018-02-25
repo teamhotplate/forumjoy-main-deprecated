@@ -20,7 +20,7 @@ app.use('/auth', router.auth);
 app.use('/api', router.api);
   
 // Listen on port 3000 when not in production
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 app.listen(PORT, function() {
   console.log(`App listening on port ${PORT}.`);
 });
